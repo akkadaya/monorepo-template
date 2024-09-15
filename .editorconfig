@@ -8,9 +8,7 @@ indent_size = 4
 indent_style = space
 trim_trailing_whitespace = true
 
-[*.{json,yml}]
-charset = utf-8
-indent_style = space
+[*.{json,yml,yaml}]
 indent_size = 2
 
 [*.{md,markdown}]

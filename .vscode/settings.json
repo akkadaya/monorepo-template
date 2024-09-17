@@ -1,8 +1,5 @@
 {
   "files.autoSave": "onFocusChange",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
   "[javascript]": {
     "editor.defaultFormatter": "biomejs.biome"
   },

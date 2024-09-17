@@ -21,6 +21,10 @@ export default tseslint.config(
         ...globals.node,
         ...globals.jest,
       },
+      parserOptions: {
+        project: true,
+        tsconfigRootDir: import.meta.dirname,
+      },
     },
     rules: {
       '@typescript-eslint/interface-name-prefix': 'off',
